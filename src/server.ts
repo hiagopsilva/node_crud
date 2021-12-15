@@ -1,7 +1,8 @@
-import express from "express"
+import express from 'express';
+import 'reflect-metadata';
 
-const app = express()
+const app = express();
 
 app.listen(3000, () => {
-  console.log('Running in localhost')
-})
+  console.log('Running in localhost');
+});
